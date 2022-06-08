@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive Portfolio Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="" class="nav_logo">Mayar</a>
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list grid">
+                        <li class="nav_item"><a href="#home" class="nav_link active-link" >
+                            <i class="uil uil-house-user nav_icon"></i> Home
+                        </a></li>
+                        <li class="nav_item"><a href="#skills" class="nav_link" >
+                            <i class="uil uil-file-alt nav_icon"></i> Skills
+                        </a></li>
+                        <li class="nav_item"><a href="#qualification" class="nav_link" >
+                            <i class="uil uil-briefcase-alt nav_icon"></i> Qualification
+                        </a></li>
+                        <li class="nav_item"><a href="#project" class="nav_link" >
+                            <i class="uil uil-scenery nav_icon"></i> Projects
+                        </a></li>
+                        <li class="nav_item"><a href="#contact" class="nav_link" >
+                            <i class="uil uil-message nav_icon"></i> Contact Me
+                        </a></li>
+                    </ul>
+                    <i class="uil uil-times nav_close " id="nav-close"></i>
+                </div>
+                <div class="nav_btns">
+                    <i class="uil uil-moon change-theme"id="theme-button"></i>
+                    <div class="nav_toggle" id="nav-toggle">
+                        <i class="uil uil-apps " ></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home_container container grid">
+                    <div class="home_content grid">
+                        <div class="home_social">
+                            <a href="https://www.linkedin.com/in/mayar-kabaja-3a8301237/" target="_blank" class="home_social-icon"><i class="uil uil-linkedin-alt"></i></a>
+                            <a href="https://github.com/mayar-kabaja" target="_blank" class="home_social-icon"><i class="uil uil-github-alt"></i></a>
+                            <a href="mailto:majd.kabajamayar@gmail.com" target="_blank" class="home_social-icon"><i class="uil uil-envelope-check"></i></a>
+                        </div>
+                        <div class="home_img">
+                            <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="home_blob-img" href="assets/img/perfil.png"/>
+                                </g>
+                            </svg>
+                            
+                        </div>
+                        <div class="home_data grid">
+                            <h1 class="home_title">Hi , I'm Mayar Kabaja</h1>
+                            <h3 class="home_subtitle">Full stack developer</h3>
+                            <p class="home_descripton">Skilled JavaScript  full stack Web  Developer eager to join a creative, problem-solving team.  Ability to learn and implement new technologies quickly.</p>
+                            <div class="home_buttons">
+                                <a href="#contact" class="button button--flex">
+                                    Contact Me <i class="uil uil-message"></i>
+                                </a>
+                                <a download="" href="assets/pdf/Mayar kabaja.pdf" class="button button--flex">
+                                    Download CV <i class="uil uil-import"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="home_scroll">
+                        <a href="#skills" class="home_scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+                            <span class="home_scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home_scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+
+                
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section_title">Skills</h2>
+                <span class="section_subtitle">My technicla level</span>
+                <div class="skills_container  container grid">
+                    <div>
+                        <div class="skills_content skills_open">
+                                <div class="skills_header">
+                                    <i class="uil uil-brackets-curly skills_icon"></i>
+                                    <div>
+                                        <h1 class="skills_title"> Frontend </h1>
+                                    </div>
+                                    <i class="uil uil-angle-down skills_arrow"></i>
+                                </div>
+                                
+                            <div class="skills_list grid">
+                                <div class="skills_data">
+                                    <span class="skills_name">HTML</span>
+                                </div>
+                                <div class="skills_data">
+                                    <span class="skills_name">CSS</span>
+                                </div>
+                                <div class="skills_data">
+                                    <span class="skills_name">JavaScript</span>
+                                </div>
+                                <div class="skills_data">
+                                    <span class="skills_name">Typescript</span>
+                                </div>
+                                <div class="skills_data">
+                                    <span class="skills_name">React</span>
+                                </div>
+                                <div class="skills_data">
+                                    <span class="skills_name">React Native</span>
+                                </div>
+                                <div class="skills_data">
+                                    <span class="skills_name">Redux</span>
+                                </div>
+                                <div class="skills_data">
+                                    <span class="skills_name">Bootstrap</span>
+                                </div>
+                                <div class="skills_data">
+                                    <span class="skills_name">React-Bootstrap</span>
+                                </div>
+                                <div class="skills_data">
+                                    <span class="skills_name">Ant Design</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills_content skills_close">
+                            <div class="skills_header">
+                                <i class="uil uil-swatchbook skills_icon""></i>
+                                <div>
+                                    <h1 class="skills_title"> Backend </h1>
+                                </div>
+                                <i class="uil uil-angle-down skills_arrow"></i>
+                            </div>
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <span class="skills_name">Node.js</span>
+                            </div>
+                            <div class="skills_data">
+                                <span class="skills_name">Express</span>
+                            </div>
+                            <div class="skills_data">
+                                <span class="skills_name">MongoDB</span>
+                            </div>
+                            <div class="skills_data">
+                                <span class="skills_name">Mongoose</span>
+                            </div>
+                            <div class="skills_data">
+                                <span class="skills_name"> PostgreSQL</span>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="skills_content skills_close">
+                        <div class="skills_header">
+                            <i class="uil uil-bolt-alt skills_icon"></i>
+                            <div>
+                                <h1 class="skills_title">Teasting & Other</h1>
+                            </div>
+                            <i class="uil uil-angle-down skills_arrow"></i>
+                        </div>
+                    <div class="skills_list grid">
+                        <div class="skills_data">
+                            <span class="skills_name">Test Driven Development (TDD)</span>
+                        </div>
+                        <div class="skills_data">
+                            <span class="skills_name">Jest</span>
+                        </div>
+                        <div class="skills_data">
+                            <span class="skills_name">Git, GitHub</span>
+                        </div>
+                        <div class="skills_data">
+                            <span class="skills_name">NPM</span>
+                        </div>
+                        <div class="skills_data">
+                            <span class="skills_name">Figma</span>
+                        </div>
+                        <div class="skills_data">
+                            <span class="skills_name">Cloudinary</span>
+                        </div>
+                        <div class="skills_data">
+                            <span class="skills_name">Twilio</span>
+                        </div>
+                        <div class="skills_data">
+                            <span class="skills_name">Heroku</span>
+                        </div>
+                        <div class="skills_data">
+                            <span class="skills_name">Postman</span>
+                        </div>
+                        <div class="skills_data">
+                            <span class="skills_name">MapBox</span>
+                        </div>
+                        
+                    </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+           
+            <!--==================== project ====================-->
+            <section class="project section" id="project">
+                    <h2 class="section_title">Projects</span>
+                    <span class="section_subtitle">Most recent work </span>
+                    <div class="project_container container swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="project_content grid swiper-slide">
+                                <img src="assets/img/project1.png" alt="" class="project-img">
+                                <div class="project data">
+                                    <h3 class="project_title">Wasslni app & website</h3>
+                                    <p class="project_description">The idea : Delivering any parcel from the seller to the buyer by selecting the location of both the seller and the buyer by map  </p>
+                                <a href="https://wasslni.herokuapp.com/" class="button button--flex button--small project_button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                                <a href="https://expo.dev/@mkhatib/wasslni  " class="button button--flex button--small project_button">
+                                    app
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="project_content grid swiper-slide">
+                                <img src="assets/img/project3.png" alt="" class="project-img">
+                                <div class="project data">
+                                    <h3 class="project_title">IKEA </h3>
+                                    <p class="project_description">A website where user can buy furnitures , add products in your cart
+                                        Delete it ,But if you are a seller you can also add the product and delete it .</p>
+                                <a href="https://ecommerce-team2.herokuapp.com/" class="button button--flex button--small project_button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="project_content grid swiper-slide">
+                                <img src="assets/img/project5.png" alt="" class="project-img">
+                                <div class="project data">
+                                    <h3 class="project_title">Attended or Not</h3>
+                                    <p class="project_description">Many companies and institutions need on a daily basis to sign attendance, so the idea  of a website that signs attendance .</p>
+                                <a href="https://attendent-or-not.herokuapp.com/" class="button button--flex button--small project_button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="project_content grid swiper-slide">
+                                <img src="assets/img/project4.png" alt="" class="project-img">
+                                <div class="project data">
+                                    <h3 class="project_title">Blog post</h3>
+                                    <p class="project_description">The website where you can see other people's thoughts on any topic you want, also you can publish your own blogs</p>
+                                <a href="https://blog-post4.herokuapp.com/" class="button button--flex button--small project_button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="project_content grid swiper-slide">
+                                <img src="assets/img/project2.png" alt="" class="project-img">
+                                <div class="project data">
+                                    <h3 class="project_title">Reddit clone</h3>
+                                    <p class="project_description">A website where users can post anything , create an account  , Add likes , and delete what you post .</p>
+                                <a href="https://mayar-reddit.herokuapp.com/" class="button button--flex button--small project_button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="project_content grid swiper-slide">
+                                <img src="assets/img/project6.png" alt="" class="project-img">
+                                <div class="project data">
+                                    <h3 class="project_title">To Do</h3>
+                                    <p class="project_description">A website that organizes your tasks.</p>
+                                <a href="https://taskmanager2021.netlify.app/" class="button button--flex button--small project_button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next">
+                            <i class="uil uil-angle-right-b swiper-project-icon"></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class="uil uil-angle-left-b swiper-project-icon"></i>
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+            </section>
+
+             <!--==================== QUALIFICATION ====================-->
+             <section class="qualification section" id="qualification">
+                <h2 class="section_title">Qualification</h2>
+                <span class="section_subtitle">My Pesonal journey</span>
+                <div class="qualification_container container">
+                    <div class="qualification_tabs">
+                        <div class="qualification_button button--flex">
+                            <i class="uil uil-briefcase qualification_icon"></i>
+                            Experience 
+                        </div>
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification_title">Full Stack JavaScript Developer Intern
+                                    </h3>
+                                    <span class="qualification_subtitle">Gaza-Sky-Geeks, Gaza</span> 
+                                    <div class="qualification_calender">
+                                        <i class="uil uil-calendar-alt"></i>                                            16/1/2022-5/6/2022
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        <div class="qualification_button button--flex">
+                            <i class="uil uil-university qualification_icon"></i>
+                            Euducation 
+                        </div>
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification_title">Software Enginnering</h3>
+                                    <span class="qualification_subtitle">Al-Azhar University  , Gaza </span> 
+                                    <div class="qualification_calender">
+                                        <i class="uil uil-calendar-alt"></i>                                            2019-present .
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification_title">Personal websites Designing Programming Course </h3>
+                                    <span class="qualification_subtitle">Al-Raed Educational Center , Gaza </span> 
+                                    <div class="qualification_calender">
+                                        <i class="uil uil-calendar-alt"></i>                                           15/8/2021 -26/8/2021
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section_title">Contact me</h2>
+                <span class="section_subtitle">Get in touch</span>
+                <div class="contact_container container grid">
+                    <div>
+                        <div class="contact_information">
+                            <i class="uil uil-phone contact_icon"></i>
+                            <div>
+                                <h3 class="contact_title">Call Me</h3>
+                                <span class="contact_sutitle">0567359920</span>
+                            </div>
+                        </div>
+                        <div class="contact_information">
+                            <i class="uil uil-envelope-check contact_icon"></i>
+                            <div>
+                                <h3 class="contact_title">Email</h3>
+                                <span class="contact_sutitle">kabajamayar@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                    <form   action="https://formspree.io/f/myyonyad"
+                            method="POST"
+                            class="contact_form grid">
+                        <div class="contact_inputs grid">
+                            <div class="contact_content">
+                                <label for="" class="contact_label">Name</label>
+                                <input type="text" class="contact_input" name="name"></input>
+                            </div>
+                            <div class="contact_content">
+                                <label for="" class="contact_label">Email</label>
+                                <input type="email" class="contact_input" name="email"></input>
+                            </div>
+                            <div class="contact_content">
+                                <label for="" class="contact_label">Message</label>
+                                <textarea name="message" id="" cols="0" rows="7" class="contact_input"></textarea>
+                            </div>
+                            <div class="contact_status" id="status"></div>
+                            <div>
+                                <button type="submit" class="button button--flex">
+                                    Send Message
+                                    <i class="uil uil-message button_icon"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+         <div class="footer-bg">
+            <div class="footer_container container grid">
+                <div>
+                    <h1 class="footer_title">Mayar</h1>
+                    <span class="footer_subtitle">Full stack developer</span>
+                </div>
+                <ul class="footer_links">
+                    <li><a href="#project" class="footer_link">Projects</a></li>
+                    <li><a href="#qualification" class="footer_link">Qualification</a></li>
+                    <li><a href="#skills" class="footer_link">Skills</a></li>
+                    <li><a href="#contact" class="footer_link">Contact</a></li>
+                </ul>
+                <div class="footer_socials_container">
+                    <a href="https://www.facebook.com/profile.php?id=100009539512947" target="_blank" class="footer_social_icon">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/mayar.kabaja/" target="_blank" class="footer_social_icon">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer_copy">&#169;  All right reserved</p>
+        </div>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup_icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
